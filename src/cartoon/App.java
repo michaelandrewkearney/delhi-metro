@@ -54,9 +54,9 @@ public class App extends Application {
     public void start(Stage stage) {
         PaneOrganizer organizer = new PaneOrganizer();
         Scene scene = new Scene(organizer.getRoot(),1250,1020);
-        stage.getIcons().addAll(new Image(App.class.getResource("/assets/icons/logo16.png").toExternalForm()),
-            new Image(App.class.getResource("/assets/icons/logo20.png").toExternalForm()),
-            new Image(App.class.getResource("/assets/icons/logo32.png").toExternalForm()));
+        stage.getIcons().addAll(new Image(App.class.getResource("assets/icons/logo16.png").toExternalForm()),
+            new Image(App.class.getResource("assets/icons/logo20.png").toExternalForm()),
+            new Image(App.class.getResource("assets/icons/logo32.png").toExternalForm()));
         stage.setScene(scene);
         stage.setTitle("Delhi Metro / \u0926\u093F\u0932\u094D\u0932\u0940 \u092E\u0947\u091F\u094D\u0930\u094B");
         stage.show();

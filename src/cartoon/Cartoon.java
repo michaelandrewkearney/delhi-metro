@@ -181,7 +181,7 @@ public class Cartoon {
 
     private void setUpMapPane() {
         _mapPane = new Pane();
-        Image map = new Image(Cartoon.class.getResource("/assets/map.png").toExternalForm(), 1000.0, 1000.0, true, true);
+        Image map = new Image(Cartoon.class.getResource("assets/map.png").toExternalForm(), 1000.0, 1000.0, true, true);
         _mapPane.setBackground(new Background(new BackgroundImage(map, BackgroundRepeat.NO_REPEAT,
                 BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, BackgroundSize.DEFAULT)));
         _cartoonPane.getChildren().add(_mapPane);
@@ -342,7 +342,7 @@ public class Cartoon {
         }
 
         private void setUpLineData() {
-            Scanner scanner = new Scanner(LineData.class.getResourceAsStream("/assets/lineValues.txt"));
+            Scanner scanner = new Scanner(LineData.class.getResourceAsStream("assets/lineValues.txt"));
             for (int i = 0; i < 18; i++) {
                 for (int j = 0; j < 48; j++) {
                     _lineData[i][0][j] = scanner.nextInt();

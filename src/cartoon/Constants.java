@@ -15,11 +15,11 @@ public class Constants {
     public static final Color RAPID_LINE_COLOR = Color.hsb(191.68, 1.0, 0.8757);
     public static final Color MY_GRAY_COLOR = Color.hsb(63.07, 0.1076, 0.3573);
     public static final Color LOGO_RED = Color.hsb(358.42, 0.7917, 0.7529);
-    public static final Font DIN_BLACK = Font.loadFont(Constants.class.getResource("/assets/DINPRO-BLACK.OTF").toExternalForm(), 12);
-    public static final Font DIN_BOLD = Font.loadFont(Constants.class.getResource("/assets/DINPRO-BOLD.OTF").toExternalForm(), 12);
-    public static final Font DIN_MEDIUM = Font.loadFont(Constants.class.getResource("/assets/DINPRO-MEDIUM.OTF").toExternalForm(), 12);
-    public static final Font DIN_REGULAR = Font.loadFont(Constants.class.getResource("/assets/DINPRO-REGULAR.OTF").toExternalForm(), 12);
-    public static final Font DIN_LIGHT = Font.loadFont(Constants.class.getResource("/assets/DINPRO-LIGHT.OTF").toExternalForm(), 12);
+    public static final Font DIN_BLACK = Font.loadFont(Constants.class.getResource("assets/DINPRO-BLACK.OTF").toExternalForm(), 12);
+    public static final Font DIN_BOLD = Font.loadFont(Constants.class.getResource("assets/DINPRO-BOLD.OTF").toExternalForm(), 12);
+    public static final Font DIN_MEDIUM = Font.loadFont(Constants.class.getResource("assets/DINPRO-MEDIUM.OTF").toExternalForm(), 12);
+    public static final Font DIN_REGULAR = Font.loadFont(Constants.class.getResource("assets/DINPRO-REGULAR.OTF").toExternalForm(), 12);
+    public static final Font DIN_LIGHT = Font.loadFont(Constants.class.getResource("assets/DINPRO-LIGHT.OTF").toExternalForm(), 12);
     public static final Font BIG_BUTTON_FONT = new Font("DINPRO-MEDIUM", 24);
     public static final Font DATA_FONT = new Font("DINPRO-MEDIUM", 14);
     public static final Font CREDIT_FONT = new Font("DINPRO-REGULAR", 12);
