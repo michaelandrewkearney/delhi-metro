@@ -8,7 +8,7 @@ Click on any two stations to calculate the fare between them.
 To run the application:
   A. Run the executable JAR in the cartoon directory; or
   B. Execute the compiled App.class file
-    1. Navigate to the "cartoon" directory in your command line
+    1. Navigate to the "cartoon/bin" directory in your command line
     2. Run "java cartoon.App"
 
 ---CONTEXT---
