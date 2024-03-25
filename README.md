@@ -8,7 +8,7 @@ This is the first computer program I ever built. It animates the actual location
 
 See the Delhi Metro come alive at rush hour!
 
-![Animation Preview](preview/preview.mp4)
+![Animation Preview](preview/preview.mov)
 
 Calculate your fare by clicking on stations!
 
