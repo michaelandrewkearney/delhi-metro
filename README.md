@@ -1,5 +1,11 @@
 # Delhi Metro Visualizer
 
+## About this Project
+
+This is the first computer program I ever built. It animates the actual locations of trains of the Delhi Metro throughout the day. It is beautiful, buggy, and made me realize the power of programming.
+
+## Preview
+
 See the Delhi Metro come alive at rush hour!
 
 ![Animation Preview](preview.mov)
@@ -8,11 +14,7 @@ Calculate your fare by clicking on stations!
 
 ![Fare Calculator Preview](fare.mov)
 
-## About this Project
-
-This is the first computer program I ever built. It animates the actual locations of trains of the Delhi Metro throughout the day. It is beautiful, buggy, and made me realize the power of programming.
-
-## How to use this app
+## How to use this program
 
 Build the project with Maven and run the project with JavaFX:
 ```bash
@@ -22,7 +24,7 @@ mvn clean javafx:run
 ## Architecture Notes
 The App contains a Pane Organizer, which contains a Cartoon and a Control. The Cartoon deals with more graphical  elements, while Control deals with the information panes and number crunching.  The Timeline works at a rate of 25 fps, meaning its duration is 40 milliseconds. Every time the TimeHandler is  called, it checks whether or not a line needs a new train to be instantiated on the _mapPane. If so, it does. The  Timeline also controls a custom-built clock (i.e. the instance variables _delhiHour, _delhiMinute, _delhiSecond, etc) which avoids having to deal with a date. This allows the application to wrap around at the end of each day, so if you  wait through the night, trains will start up again at 4:42 AM. (Note: per Indian custom, 24-hour time is used).
 
-## Functionality Requirements:
+## Functionality Requirements
 - each "train" is a composite shape (see Logo.java)
 - _mapPane (in Cartoon.java) contains these shapes (although they are added in Logo.java)
 - Quit button quits the application properly
